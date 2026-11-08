@@ -25,13 +25,13 @@
 
 ## 참여자별 구현
 
-각자 이름의 폴더에 구현물을 올리고 표에 README와 트러블슈팅 링크를 추가합니다.
+각자 GitHub 닉네임으로 된 폴더에 구현물을 올리고 표에 README와 트러블슈팅 링크를 추가합니다.
 
 | 참여자 | 구현 및 설명 | 트러블슈팅 |
 | --- | --- | --- |
-| 김지환 | [README](./김지환/README.md) | [docs](./김지환/docs/) |
+| 김지환 (pileuszu) | [README](./pileuszu/README.md) | [docs](./pileuszu/docs/) |
 | 김민지 (Minji6) | [README](./Minji6/README.md) | [docs](./Minji6/docs/) |
-| 이승욱 | [README](./이승욱/README.md) | [docs](./이승욱/docs/) |
+| 이승욱 (josephuk77) | [README](./josephuk77/README.md) | [docs](./josephuk77/docs/) |
 
 각자 폴더의 README에 프로젝트 설명과 실행 방법을 작성하고, `docs/`에 문제와 해결 과정을 기록합니다. [문서 템플릿과 그라운드 룰](https://github.com/Afterwork-Builders/.github/blob/main/profile/README.md)을 참고해 주세요.
 
