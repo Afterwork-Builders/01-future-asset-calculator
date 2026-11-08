@@ -29,7 +29,9 @@
 
 | 참여자 | 구현 및 설명 | 트러블슈팅 |
 | --- | --- | --- |
-| 추가 예정 | — | — |
+| 김지환 | [README](./김지환/README.md) | [docs](./김지환/docs/) |
+| 김민지 | [README](./김민지/README.md) | [docs](./김민지/docs/) |
+| 이승욱 | [README](./이승욱/README.md) | [docs](./이승욱/docs/) |
 
 각자 폴더의 README에 프로젝트 설명과 실행 방법을 작성하고, `docs/`에 문제와 해결 과정을 기록합니다. [문서 템플릿과 그라운드 룰](https://github.com/Afterwork-Builders/.github/blob/main/profile/README.md)을 참고해 주세요.
 
