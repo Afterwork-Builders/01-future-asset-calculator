@@ -7,8 +7,7 @@ def main():
     current_assets = int(input("현재 자산: "))
     monthly_salary = int(input("월급: "))
     monthly_expense = int(input("월 지출: "))
-
-    months = DEFAULT_MONTHS
+    months = int(input("저축 개월수: "))
 
     future_assets = calculate_future_assets(
         current_assets,
