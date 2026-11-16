@@ -1,0 +1,9 @@
+{
+  "start_month": "2026-10",
+  "initial_cash": 17000000,
+  "monthly_budget": {
+    "living_expenses": 200000,
+    "fixed_expenses": 500000
+  },
+  "annual_salary": 32000000
+}
