@@ -1,5 +1,3 @@
-
-from .constants import DEFAULT_MONTHS
 from .calculator import calculate_future_assets, calculate_rate
 
 
@@ -11,8 +9,8 @@ def main():
     monthly_salary = int(input("월급: "))
     monthly_expense = int(input("월 지출: "))
 
-    months_input = input(f"저축 개월수 (기본 {DEFAULT_MONTHS}개월): ")
-    months = int(months_input) if months_input else DEFAULT_MONTHS
+    months_input = input(f"저축 개월수 (기본 12개월): ")
+    months = int(months_input) if months_input else 12
 
     # 이자 설정
     print("\n===== 이자 설정 =====")

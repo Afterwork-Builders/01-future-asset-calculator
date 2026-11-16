@@ -11,10 +11,12 @@ def calculate_future_assets(
 
     return future_assets
 
+
 def calculate_rate(
-    future_assets: int,
+    current_assets: int,
+    monthly_savings: int,
     annual_interest_rate: bool,
-    welfare: bool,
+    is_compound: bool,
     rate: float,
     months: int
 ) -> int:
@@ -26,10 +28,15 @@ def calculate_rate(
     else:
         monthly_rate = interest_rate
 
-    if welfare:
-        future_assets_total = future_assets * (1 + monthly_rate) ** months
+    balance = float(current_assets)
+    accumulated_interest = 0.0
 
-    else:
-        future_assets_total = future_assets * (1 + monthly_rate * months)
+    for _ in range(months):
+        if is_compound:
+            balance += balance * monthly_rate
+        else:
+            accumulated_interest += balance * monthly_rate
 
-    return round(future_assets_total)
+        balance += monthly_savings
+
+    return round(balance + accumulated_interest)
